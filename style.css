@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 5px;
+    font-family: sans-serif;
+  }
+  body {
+    background-image: linear-gradient(to top right, #2fbede, white);
+  }
+
+  nav {
+    display: flex;
+    width: 100px;
+    margin: auto;
+    justify-content: space-between;
+  }
+
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    margin-top: -50px;
+    
+    
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  nav ul li a:hover {
+    color: red;
+  }
+
+  .navber {
+    margin-left: -150px;
+
+  }
+
+  .navber h5 {
+    font-size: 30px;
+    color: black;
+  }
+
+  span {
+    color: rgb(60, 0, 255);
+  }
+  span2 {
+    color: red;
+  }
+
+  .navber p {
+    color: black;
+    line-height: 22px;
+  }
+
+  .navber a {
+    background: blue;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+  }
+  .navbarsection {
+    /* display: flex; */
+    /* justify-content:space-between; */
+    color: red;
+  }
+  .navberlist {
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 30px; */
+  }
+  .btnSec {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+  }
+  .menu {
+    color: black;
+    font-size: 15px;
+  }
+  .imageClass {
+    height: 250px;
+    width: 250px;
+    /* border-radius: 50%; */
+  }
+
+  h3{
+    display: flex;
+    font-weight: 700;
+    color: blue;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+   
